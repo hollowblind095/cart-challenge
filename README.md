@@ -8,8 +8,12 @@ Crear una función que se encargue de agregar todos los event listeners necesari
 
 ###### addCart
 
-Crear una función que añade un determinado producto al carrito (ver bien como estan los elementos en el html).
+Crear una funcion que sirva para agregar elementos al carrito
 
 ###### removeCart
 
-Crear una función que elimine un determinado producto del carrito
+Crear una funcion que sirva para eliminar elementos del carrito
+
+###### extraCredit
+
+Adaptar esta pagina con sus propios estilos y la experiencia de usuario que ustedes prefieran
