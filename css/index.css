@@ -8,7 +8,7 @@
 }
 
 body {
-  background-color: rgba(21, 21, 21, 0.2);
+  background: url('https://i.fbcd.co/products/original/8a9f3c77d7dc3b049e95a30652e653e5b8e23f4fe22c6a69d75a8f0141cc3004.jpg')
 }
 
 nav {
@@ -23,6 +23,62 @@ nav img {
   height: 70%;
   filter: invert(100%);
   margin: 0 1rem;
+}
+
+button {
+  width: 60px;
+  height: 20px;
+  transition: 0.5s;
+}
+
+li {
+  color: black;
+  list-style-type:none;
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 15px;
+  box-shadow: 5px 10px;
+  margin-bottom: 15px;
+  transition: 0.3s;
+}
+
+li:hover {
+  background: yellowgreen;
+}
+
+#total {
+  font-size: large;
+  position: absolute;
+  bottom: 0;
+  left: 30px;
+}
+
+.title:hover {
+  transition: 1s;
+  text-shadow: 0 0 10px yellow;
+}
+
+.deleteButton {
+  position: absolute;
+  left: -15px;
+  border: 2px solid black;
+  background-color: green;
+  border-radius: 3px;
+  width: 25px;
+  height: 25px;
+  transition: 0.5s;
+}
+
+.deleteButton:hover {
+  border: 2px solid black;
+  background-color: orangered;
+  border-radius: 3px
+}
+
+.addButton:hover {
+  border: 2px solid black;
+  background-color: greenyellow;
+  border-radius: 3px;
 }
 
 .head {
@@ -51,6 +107,12 @@ nav img {
   border: 2px solid black;
   box-shadow: 2px 2px 0 black;
   border-radius: 10px;
+  transition: 0.5s;
+}
+
+.lista li:hover {
+  height: 17rem;
+  width: 11rem
 }
 
 .lista li img {
@@ -65,22 +127,26 @@ nav img {
   top: 2rem;
   right: 0;
   background-color: rgba(21, 21, 21, 0.2);
-  width: 30vw;
-  height: 50vh;
+  width: 40%;
+  height: 90%;
   border-radius: 15px;
   border: 2px solid black;
   box-shadow: 2px 2px 0 black;
   transition: all 500ms ease;
-}
-
-.modal:hover {
-  background-color: rgba(21, 21, 21, 0.7);
+  background-color: yellow
 }
 
 .close {
+  position: absolute;
+  bottom: 0;
   height: 1.5rem;
   width: 1.5rem;
   background-color: rgb(253, 53, 53);
   border: 2px solid black;
   border-radius: 100%;
+  transition: 0.5s;
 }
+.close:hover {
+  background-color: red;
+}
+
